@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root{
+  display: flex;
+  height: 100vh;
+  background-color: red;
+}
+
+#wrapper{
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-color: coral;
+}
