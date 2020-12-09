@@ -7,7 +7,7 @@
 #root{
   display: flex;
   height: 100vh;
-  background-color: red;
+  /* background-color: red; */
 }
 
 #wrapper{
@@ -15,7 +15,7 @@
   width: 800px;
   height: 500px;
   margin: auto;
-  background-color: coral;
+  /* background-color: coral; */
 }
 
 .next, .prev{
@@ -32,7 +32,7 @@
 }
 
 .slide{
-  width:100%;
+  width:calc(100% - 100px);
   height:100%;
 }
 

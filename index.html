@@ -14,13 +14,13 @@
 
       <div id="wrapper">
         <div class="prev">
-          <i class="fas fa-chevron-left"></i>
+          <i class="fas fa-chevron-left" @click= "previmage"></i>
         </div>
         <div class="slide">
-
+          <img :src="images[imageIndex]" alt="">
         </div>
         <div class="next">
-          <i class="fas fa-chevron-right"></i>
+          <i class="fas fa-chevron-right" @click= "nextimage"></i>
         </div>
 
       </div>
