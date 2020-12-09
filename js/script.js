@@ -2,7 +2,7 @@ var app = new Vue(
   {
     el:'#root',
     data:{
-      imageIndex: 0;
+      imageIndex: 0,
       images: [
         "https://www.keblog.it/wp-content/uploads/2019/08/foto-manipolazioni-surreali-animali-ronald-ong-7.jpg",
         "https://www.liveversilia.it/wp-content/uploads/2018/11/LIGHTNESS_BART-HERREMAN_OpenOneArtGallery-e1542883730498.jpg",
@@ -30,4 +30,4 @@ var app = new Vue(
 
     }
   }
-)
+);

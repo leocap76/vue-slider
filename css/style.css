@@ -32,6 +32,7 @@
 }
 
 .slide{
+  position: relative;
   width:calc(100% - 100px);
   height:100%;
 }
@@ -41,4 +42,15 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.nav{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  padding: 20px;
+  border-radius: 50px;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+
 }
